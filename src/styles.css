@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 800px;
+  width: 90vw;
+  margin: 1rem auto;
+}
+
+.multi-select {
+  border: 1px solid grey;
+  min-height: 2em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+.list-dropdown {
+  border: 1px solid grey;
+  margin: 1rem 0;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+button {
+  /* width:100% */
+}
+
+.chips {
+  padding: 0.3rem;
+  border: 1px solid grey;
+  margin: 3px;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
